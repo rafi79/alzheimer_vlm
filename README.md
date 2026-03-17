@@ -4,38 +4,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Tests](https://img.shields.io/badge/Tests-pytest-orange)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white)
 
-**Production-ready data pipeline for Alzheimer's MRI classification with Vision-Language Models.**
-
-[Paper](#-citation) · [Dataset](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images) · [Quick Start](#-quick-start)
-
-</div>
 
 ---
 
-## Table of Contents
-
-- [Overview](#-overview)
-- [Dataset](#-dataset)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Pipeline — Step by Step](#-pipeline--step-by-step)
-  - [Step 1 · Download](#step-1--download)
-  - [Step 2 · Preprocessing](#step-2--preprocessing)
-  - [Step 3 · EDA](#step-3--eda)
-  - [Step 4 · Dataset & DataLoaders](#step-4--dataset--dataloaders)
-  - [Step 5 · Augmentation](#step-5--augmentation)
-- [Configuration](#-configuration)
-- [Module Reference](#-module-reference)
-- [Running Tests](#-running-tests)
-- [Results](#-results)
-- [Citation](#-citation)
-
----
 
 ## 🧠 Overview
 
@@ -594,30 +567,5 @@ Performance on the Kaggle Alzheimer's MRI Dataset test set (1 279 images):
 | BioViL | 96.87 | 96.52 | 0.988 |
 | **MedVLM-AD (ours)** | **99.14** | **99.02** | **0.997** |
 
----
 
-## 📜 Citation
 
-```bibtex
-@Article{anonymous2024medvlmad,
-  author =  {Anonymous Author(s)},
-  title =   {{MedVLM-AD}: A Multimodal Vision-Language Framework with
-             Cross-Modal Semantic Fusion for {Alzheimer's} Disease
-             Detection from {MRI} Scans},
-  journal = {Journal of Machine Learning Research},
-  year =    {2024}
-}
-```
-
----
-
-## 📄 License
-
-MIT License.  
-Dataset subject to [Kaggle terms of use](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images).
-
----
-
-<div align="center">
-Made for the MedVLM-AD research project · Open an issue for questions.
-</div>
